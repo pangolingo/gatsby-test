@@ -9,6 +9,16 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        useResolveUrlLoader: {
+          options: {
+            sourceMap: true, //default is false
+          },
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

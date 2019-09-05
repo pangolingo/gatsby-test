@@ -1,0 +1,20 @@
+#skip-to-content {
+  &:focus {
+    // @apply w-auto h-auto py-3 px-6 z-50 text-black bg-white;
+    @extend .w-auto;
+    @extend .h-auto;
+    @extend .text-black;
+    @extend .bg-white;
+    top: 3px;
+    left: 3px;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

@@ -1,0 +1,127 @@
+/**
+ * components/webfonts.css
+ *
+ * Project webfonts.
+ *
+ */
+
+ @font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-BoldIt.eot');
+  src: url('./../fonts/ToyotaType-BoldIt.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-BoldIt.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-BoldIt.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-Light.eot');
+  src: url('./../fonts/ToyotaType-Light.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-Light.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-Bold.eot');
+  src: url('./../fonts/ToyotaType-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-Bold.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-SemiboldIt.eot');
+  src: url('./../fonts/ToyotaType-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-SemiboldIt.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-SemiboldIt.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-RegularIt.eot');
+  src: url('./../fonts/ToyotaType-RegularIt.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-RegularIt.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-RegularIt.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-BookIt.eot');
+  src: url('./../fonts/ToyotaType-BookIt.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-BookIt.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-BookIt.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-Book.eot');
+  src: url('./../fonts/ToyotaType-Book.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-Book.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-Regular.eot');
+  src: url('./../fonts/ToyotaType-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-Regular.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-Semibold.eot');
+  src: url('./../fonts/ToyotaType-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-Semibold.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-LightIt.eot');
+  src: url('./../fonts/ToyotaType-LightIt.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-LightIt.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-LightIt.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-BlackIt.eot');
+  src: url('./../fonts/ToyotaType-BlackIt.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-BlackIt.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-BlackIt.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Toyota';
+  src: url('./../fonts/ToyotaType-Black.eot');
+  src: url('./../fonts/ToyotaType-Black.eot?#iefix') format('embedded-opentype'),
+      url('./../fonts/ToyotaType-Black.woff2') format('woff2'),
+      url('./../fonts/ToyotaType-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
