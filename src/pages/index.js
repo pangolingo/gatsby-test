@@ -17,11 +17,9 @@ const IndexPage = ({data}) => (
     <p>Total MCs: {data.allContentfulMc.totalCount}</p>
     <ol>
       {data.allContentfulMc.nodes.map(mc => {
-        return <li>
+        return <li key={mc.id}>
         <h2>{mc.name}</h2>
-        <p>
-          {documentToReactComponents(mc.bio.json)}
-        </p>
+        {documentToReactComponents(mc.bio.json)}
         </li>
       })}
     </ol>
@@ -40,7 +38,7 @@ export const query = graphql`
         description
       }
     }
-    allContentfulMc {
+    allContentfulMc(filter: {node_locale: {eq: "en-US"}}) {
       nodes {
         updatedAt
         name
