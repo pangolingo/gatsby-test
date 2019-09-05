@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `TRI Olympics Demo`,
+    description: `85 years of innovation have brought us our greatest mission yet: giving the freedom of movement to humankind. That's why Toyota is the Worldwide Official Mobility Partner of the International Olympic Committee and the International Paralympic Committee.`,
     author: `@gatsbyjs`,
   },
   plugins: [

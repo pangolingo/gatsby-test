@@ -10,10 +10,8 @@ import Clock from "../components/clock";
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <p>Meta Description: {data.site.siteMetadata.description}</p>
+    <h1>Start Your Impossible</h1>
+    <p>{data.site.siteMetadata.description}</p>
     <p>Total MCs: {data.allContentfulMc.totalCount}</p>
     <ol>
       {data.allContentfulMc.nodes.map(mc => {

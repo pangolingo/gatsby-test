@@ -1,0 +1,11 @@
+.header {
+  @extend .container;
+
+  .navigation__hamburger {
+    display: none;
+  }
+}
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+}

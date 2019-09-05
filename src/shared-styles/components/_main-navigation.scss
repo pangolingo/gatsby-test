@@ -1,0 +1,10 @@
+.main-navigation__language {
+  display: none;
+}
+.main-navigation__list {
+  @extend .list-none;
+  display: flex;
+}
+.main-navigation__list-item {
+  padding: 20px;
+}
